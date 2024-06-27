@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: darkslategrey;
+}
+.titlebar{
+    color: white;
+    padding:10px;
+    text-align: center;
+    margin-bottom:10px ;
+    margin-top: 10px;
+}
+.container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+.container div{
+    width:200px;
+    color: whitesmoke;
+    margin:10px;
+    flex-basis: 20%;
+}
+
